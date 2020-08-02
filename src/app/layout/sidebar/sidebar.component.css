@@ -1,0 +1,9 @@
+.sidebar-block{
+    
+    margin: 1em 2em;
+ }
+ .sidebar-block li{
+     text-decoration: none;
+     list-style: none;
+     display: block;
+ }

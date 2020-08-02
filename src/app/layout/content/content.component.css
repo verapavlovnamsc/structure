@@ -1,0 +1,25 @@
+/* good-card */
+.good-card {
+    width: 260px;
+    height: 350px;
+    margin: 15px 15px 0 15px;
+    background: #ffffff;
+    float: left;
+    text-align: center;
+}
+.good-card img {
+    width: 160px;
+    margin-top: 50px;  
+}
+.good-name{
+    font-size: 18px;
+    font-weight: bold;
+}
+.good-price{
+    color: red;
+}
+
+h3 {
+    text-align: center;
+    font-size: 35px;
+}
