@@ -8,6 +8,7 @@ import { LayoutComponent } from './layout/layout.component';
 import { SidebarComponent } from './layout/sidebar/sidebar.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { ContentComponent } from './layout/content/content.component';
+import { CoatComponent } from './coat/coat.component';
 
 
 
@@ -18,7 +19,8 @@ import { ContentComponent } from './layout/content/content.component';
     LayoutComponent,
     ContentComponent,
     FooterComponent,
-    SidebarComponent
+    SidebarComponent,
+    CoatComponent
   ],
   imports: [
     BrowserModule,
