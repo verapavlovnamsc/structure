@@ -3,28 +3,22 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './layout/header/header.component';
-import { LayoutComponent } from './layout/layout.component';
-import { SidebarComponent } from './layout/sidebar/sidebar.component';
-import { FooterComponent } from './layout/footer/footer.component';
-import { ContentComponent } from './layout/content/content.component';
-import { CoatComponent } from './coat/coat.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialModule } from './material-module';
+
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    LayoutComponent,
-    ContentComponent,
-    FooterComponent,
-    SidebarComponent,
-    CoatComponent
+   
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
