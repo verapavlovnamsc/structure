@@ -1,11 +1,22 @@
-<h3>Raised Buttons</h3>
-<div class="example-button-row">
-  <button mat-raised-button>Basic</button>
-  <button mat-raised-button color="primary">Primary</button>
-  <button mat-raised-button color="accent">Accent</button>
-  <button mat-raised-button color="warn">Warn</button>
-  <button mat-raised-button disabled>Disabled</button>
-  <a mat-raised-button routerLink=".">Link</a>
-</div>
+<ng-container>
+  <app-header class="example-header"></app-header>
 
-<router-outlet></router-outlet>
+
+  <mat-sidenav-container class="example-container">
+
+    <mat-sidenav mode="side" opened class="example-sidenav">
+      <mat-list>
+        <mat-list-item routerLink='house'>Дома</mat-list-item>
+        <mat-list-item routerLink='flat'>Квартиры</mat-list-item>
+        <mat-list-item routerLink='townhouse'>Таунхаусы</mat-list-item>
+      </mat-list>
+    </mat-sidenav>
+
+    <mat-sidenav-content>
+      <router-outlet></router-outlet>
+    </mat-sidenav-content>
+
+  </mat-sidenav-container>
+
+  <app-footer class="example-footer"></app-footer>
+</ng-container>
