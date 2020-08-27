@@ -1,23 +1,25 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { MenuhouseComponent } from './menuhouse/menuhouse.component';
-import { MenuflatComponent } from './menuflat/menuflat.component';
-import { MenutownhouseComponent } from './menutownhouse/menutownhouse.component';
+import { MenusuitComponent } from './menusuit/menusuit.component';
+import { MenujacketComponent } from './menujacket/menujacket.component';
+import { MenucoatComponent } from './menucoat/menucoat.component';
+
+
 
 
 
 const routes: Routes = [
   {
-    path: 'house',
-    component: MenuhouseComponent
+    path: 'suit',
+    component: MenusuitComponent
   },
   {
-    path: 'flat',
-    component: MenuflatComponent
+    path: 'jacket',
+    component: MenujacketComponent
   },
   {
-    path: 'townhouse',
-    component: MenutownhouseComponent
+    path: 'coat',
+    component: MenucoatComponent
   }
 ];
 @NgModule({
@@ -25,3 +27,6 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+
+
+
