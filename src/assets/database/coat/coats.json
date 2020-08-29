@@ -1,91 +1,71 @@
 [{
-  "id": "83a79d87-c790-463b-91ec-1d4e28bd0557",
-  "city": "Dzerzhinsk",
-  "address": "2606 Blackbird Terrace",
-  "img": "http://dummyimage.com/315x296.jpg/cc0000/ffffff",
-  "description": "Microscopic examination of specimen from lower gastrointestinal tract and of stool, culture and sensitivity"
-}, {
-  "id": "10a991a0-1bb2-48b1-84bc-1c999293c64c",
-  "city": "Živinice",
-  "address": "96325 Moland Pass",
-  "img": "http://dummyimage.com/281x298.jpg/cc0000/ffffff",
-  "description": "Bilateral repair of inguinal hernia, not otherwise specified"
-}, {
-  "id": "debe3313-1991-4dd1-a969-f58a67b04843",
-  "city": "Tbilisskaya",
-  "address": "1 Eggendart Road",
-  "img": "http://dummyimage.com/299x318.jpg/cc0000/ffffff",
-  "description": "Vaccination against tularemia"
-}, {
-  "id": "e06f9c71-fd54-4d84-a949-6e8e436c9272",
-  "city": "Ekasapta",
-  "address": "84 Stuart Lane",
-  "img": "http://dummyimage.com/331x325.jpg/ff4444/ffffff",
-  "description": "Extraction of milk from lactating breast"
-}, {
-  "id": "d425d840-c86d-4c32-8cf3-c008fcfa9dc7",
-  "city": "Urbiztondo",
-  "address": "370 Mcguire Parkway",
-  "img": "http://dummyimage.com/263x282.jpg/ff4444/ffffff",
-  "description": "Vaccination against tuberculosis"
-}, {
-  "id": "f597b7be-078e-4d58-a5ae-994b0ca2c379",
-  "city": "Mandalgovi",
-  "address": "43160 Myrtle Center",
-  "img": "http://dummyimage.com/284x340.jpg/dddddd/000000",
-  "description": "Biopsy of bone, unspecified site"
-}, {
-  "id": "5eb6f802-c7db-4559-a7b2-65b3802e3b5f",
-  "city": "Salitral",
-  "address": "0 Bobwhite Parkway",
-  "img": "http://dummyimage.com/308x256.jpg/ff4444/ffffff",
-  "description": "Injection of therapeutic substance into bursa of hand"
-}, {
-  "id": "d459c128-fd21-499a-be76-5e7b76a10926",
-  "city": "Prilep",
-  "address": "02 Brown Hill",
-  "img": "http://dummyimage.com/279x336.jpg/5fa2dd/ffffff",
-  "description": "Insertion of aqueous drainage device"
-}, {
-  "id": "0709a0c6-23c0-4c49-bfa2-8b290027fa15",
-  "city": "Koson",
-  "address": "35096 Oxford Trail",
-  "img": "http://dummyimage.com/349x333.jpg/dddddd/000000",
-  "description": "Electrolysis and other epilation of skin"
-}, {
-  "id": "1a87ee01-cf74-4906-b3e4-b1ab31e16f46",
-  "city": "Shuangyang",
-  "address": "6019 Eagan Circle",
-  "img": "http://dummyimage.com/273x302.jpg/ff4444/ffffff",
-  "description": "Closure of fistula of larynx"
-}, {
-  "id": "1698f63b-afce-4def-be25-2740df5203b2",
-  "city": "Gadžin Han",
-  "address": "4 Monica Parkway",
-  "img": "http://dummyimage.com/343x325.jpg/ff4444/ffffff",
-  "description": "Microscopic examination of specimen from lymph node and of lymph, culture"
-}, {
-  "id": "cebd2a1a-9021-4d64-af57-ee8d88226717",
-  "city": "Nahuo",
-  "address": "1397 Gina Lane",
-  "img": "http://dummyimage.com/303x317.jpg/cc0000/ffffff",
-  "description": "Microscopic examination of specimen from lower gastrointestinal tract and of stool, other microscopic examination"
-}, {
-  "id": "956509f0-6994-40c2-ba46-fddb4906150b",
-  "city": "Lyakhovtsy",
-  "address": "165 Barnett Court",
-  "img": "http://dummyimage.com/327x282.jpg/5fa2dd/ffffff",
-  "description": "Excision of pilonidal cyst or sinus"
-}, {
-  "id": "fa0a4c75-32c8-4c31-a526-6bab9bc3aad6",
-  "city": "Lattes",
-  "address": "16 Butternut Drive",
-  "img": "http://dummyimage.com/300x320.jpg/dddddd/000000",
-  "description": "Transposition of cranial and peripheral nerves"
-}, {
-  "id": "8f73598b-1e59-49dc-9f7d-e1d7e8c41555",
-  "city": "Basicao Coastal",
-  "address": "97370 Barnett Drive",
-  "img": "http://dummyimage.com/334x317.jpg/cc0000/ffffff",
-  "description": "Auxiliary liver transplant"
-}]
+    "id": 1,
+    "color": "Green",
+    "size": "3XL",
+    "price": "$4.64",
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJDSURBVDjLxVNdSFNhGH7OD3NmuaVnapg5lVCJKINWlBJFYGTSz0XYReHFIJFdehEEFkEF3kd00ZWFXSlIYgyDRlsLJVkbEgu3JjpxZqaOOde+8329ZyIs6kLwohee873fy3me73nPeT9JCIGdhIwdxv8XULeS9j6/jZZ+zvlhrnOTznRsgpkZY1k9y6bo+XDiybU3/xSg8Dc3aHVH7XvJlgSdczAOyoBfJBSNrza/GP08QlvlLwE6fbcqo868PIUBzxecae9EcNyDrC4Qn5mG48JNRP1DWAyFqeXrf7ZA5Aqy/bqpthSxoA/FZXaspRlSGwwLs1FyIbCaYuA6UFlWjKqzPaJAqw9Te5e/DXWFpYuPvYMt9barpxpsiCQ2sJLKkmVOEMhkeQ5GbtmloK68ENQNPgYicHtC4zPD3SdU+mBtxw9qCM+ncydnDHKOZJDFphjta76+hBYZgPlHDPus5TAJh6PqEi9RyYrJGMbUXACjr57BVGDGsZY2HDnZmrPPdA7LZD/s7C0aOrtQUHMI6aAb2vsxnA77XFLT+RuCJRNgyUXYtBLIsozE0gokSy1EegnGqPdaJ3Gl5wEKI++AuBewWLGkVmPC/WE294KBxsbGqNPpFC6XS1Ae2qobGDuncv5pUOTHz3sVwqjnz8Etn8/XR2ua8Dz/V+mKiK8HRvYXDXcjk17AOtWSawrVMS9t5zZ6Oyrvm/YU3a0qZaoqzyH5nSGWUPTshuiVtnudfR0H7qSW528rulRtOCLW01Y3e/QbBKBEL0GVKsYAAAAASUVORK5CYII="
+  },
+  {
+    "id": 2,
+    "color": "Orange",
+    "size": "2XL",
+    "price": "$6.04",
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAB+SURBVCjPpVHbCYAwDLyIIzmEX07hCH64nAOIuo1Sq+CZ1ueXVsyRBJrc5aBCPEeEvwuxK9XtDn0Si/ZU9gUg2Z/dYEuiuxSI5mRtwyuEIR5KOpVZYRUjjMLVVkIVCk6YPPdg1/LNQ87xdtl4JauaQ7CHjAfXeK5FH+7h9bNWB/9J3PASf8kAAAAASUVORK5CYII="
+  },
+  {
+    "id": 3,
+    "color": "Orange",
+    "size": "M",
+    "price": "$7.15",
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALNSURBVDjLbZJtSFNxFIdvzKSBIfWlKCqMygiMoj5UhItR9CKaHxSNIqhMtIhsZSsrtbISZTE0nbP0w2Yh03xhmK2WKd3EmGV+KIJKiCTIoBesmXXd07mIlS8XDhf+/J/fec65VwGUcdVRGS1lo83RTUeZht+u4SvupvWSjYbc6In3J8IWAYM8qYXeZikvPG+Cx25oL4P67CCeLMvkgI7KcNqdrXTVwLN6ueyAO4VIV2g6Bw1WaM6FtqvQmAPXd7fiSA7/F9DmsPNEYD3AV6wJaBZd499ONw8bcR00U71Xo17C3Jlg32EbDWgri+FhiUbXLel4RaMpfxGNZyJEt0B0O6nJ7MS1v4CKXRE4kxZRGq/hkSmKTBqFG1Yo3LfZUatFz67rmmm0zqfO0kfLRajNgluH5H0MKhL7KNk+n2KzWULgxh4oWG1TRPcVnTWjs9WfMIpuHd7ziK6HylQT1xJNouvBnS5dY+soWm/kwhrEDHKiXyiiO0ynbNmTpR8aRDeIOwPRNQUCgQRVVVeIronSOLi4Nkj+SgNnlsPNIxKw+KsiusOoVbKYg/p2jVSk6LoD1B7dKPBvv9//i/KkbaL7jrwYsC41krNkdLSzUYOKbPc1t7MR3aDohoturL5dgd0898Gbe3g8HpeauvBUR0LkB785LNQeF671ZSzQA2SEil1HRTddFhM59tkEni2dB71eb0jgkPfcvm+9x9cND7XYCL28y49aC4HDMSM9yTOrlUm/spTA5QJrfOqBjwFads4hKDAlsn3rLLgcxaeiTfg2G/qmglcJPKJ3drlcqtPpVP3m6YSeNvD/8yVvLvo4kwIE9gs8JPCNsbOWHTN/fK86AAL9PKnwWepdhgHfFkP/RDhO4H6Bz/5//ihlXn5X2rKRD9YoBk5P523aNB7Eh2l3txhyxgUIXClwwlR7UVMWnLqzdcZHXVs6v9dh/fwPHS3E3E4GyQ4AAAAASUVORK5CYII="
+  },
+  {
+    "id": 4,
+    "color": "Aquamarine",
+    "size": "2XL",
+    "price": "$9.92",
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJ9SURBVDjLfVNLSFRRGP7OeO88fJAMGmqikAaalbUIJ3NRROAiwmjdQmqXFdRmaOGiB4nrMmjRpk1LIQjK7CmmCFHWIAguMpGhnMGZud7XeXXOndF8YAd+/p9z/+873/n+e4iUEnrx6wMSBw+BjY1BMgbJOQSlEKVs9vZCvnmPivFXBJuWsV5sBslNQKH317NPsX39I6AsIBGeFzQHRDqXamMXgtAGgfooFRjNzeCaRIXO3HVBWlshbEf1+P9R4NM7JDM3GDluIXYirL6UlfYJmO3Cn0mBq55dCcLnFpfAQhbtuFTphZvAeUhdQZ3ObJjOIqKh5xbp5kvbCYiegnyW6FLlqH/sdp3nR5TcVTB3TfniKhIlm5QhEiUon3+cBpV95o3U9FYPOEuytst1HouB2zkltQiU1IdwbbDcCuxsDm7TxTpR4MkdJkrBemjFfginUATqU5kaHfWCWlAHLJ+Bw8oBj/fs9EDIuJBlgWShCbieexHM/WL+7OUws5xGPt5RU7h/Or9qZYdfPvh2r2SiLP5EjG5I3wju46OTwUK9gVPtJ9EYP4B3qdGqqR+f7iYGGqpLV5BZQi2lhG+VrlUokvG1NI62dYKHODrrz4ITisThbg29WjKRThi5ORDDVBz+Fuk6/lgrMEklzrdfC9pvnXmClr1HdBktKnDEkPHladokNkJmVCkRgQ/6DUCNOa8MTC1PYmisPyAYet2Phd+zunQDAuPm/LRw+GDk7XA65v+Euaca4Zp9KhoQidfiQm0jpmYnEVaev/g+gjAxMPH1g4Y+IuvPOaBLtnQJiyVBRY+QJA6uBZCsYJi4UsULv4joU21VKgoqRqYeLif/Al7ruK6zYN/dAAAAAElFTkSuQmCC"
+  },
+  {
+    "id": 5,
+    "color": "Red",
+    "size": "M",
+    "price": "$2.27",
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADsSURBVCjPpZE9SgRBEIW/XnvWwB+ExUAXBDNvsTCTeAtP4AkEz+MNnGSHuYHBRgObCAaCmAiCU93VZdC9g5HJVlBJvfe+osoZ/9eMfQUeYFhrrUQCgYAgCCPS3TXgjGE178+RyZO3quh5be47D/HxjHcOAStD441Trhke6NxmNe8XfJXgiOE4oOKEI1q2jXtZX9SGYCXcpl7xyVPnhW8+GDESSsJIJBTDc4zgpQZB2eCYFa+RuEJZIrUfiUQUxZEKZpcRCPgRRUnckEjYH4yRsmCBTsHZvwNdEvE/7fOtMObbIUi5Z8Za6/b+5i8QHogENhlMkQAAAABJRU5ErkJggg=="
+  },
+  {
+    "id": 6,
+    "color": "Turquoise",
+    "size": "M",
+    "price": "$4.29",
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJ0SURBVDjLjZPLa1NREIe/+0jaNE0VTRvBF1YQwRciUgpCQXwt3AhiVz66ceXSpYL4Nyi4kQiuruLGR32gVBeKithWUatUW6pR21KjJmma3HNmXFy9tQrigbMYmPmdb35zxlFVBgYGdpVun75upgqY8RF25Ic6+L8z4fT396+31j6QcCbtYZk8c5htZ1/8V7Xv+x1+EARDnZ2dRxpf9uabFwIKYRjOSRQRVHVOnEqlIpHu7u7V1tpT0rYfD8P3e31/veS6LiISx47jxIIxQfJZbz7TpiBRAsDJS+OIgEJUICDAib3Z2TZigtb9eI7h2527sYAIrFma+ikQ3cHRCgDW2rkE/uC1fEtWUdVZAVWej04jgIqiYhGNPHBdV/4gOIDnGIq378Y9ntyX49GbCSbLNcq1BhoSSealBBtWMSZRBewswdOr+UxrxKmqiAgX7n9gwfwWNqzI4ic8Jr7VKZZqPH5bYlN7SxrwfiM4iIeheKsvdroxlaY910Sx5mCqFnU8FrdleDFcoVAo4Hme6wZBMFQoFI6M956j/OQ8YolHVK7WSSYTGCuIKDN1oW7AqE8ul8NaK78RHMLFMHW9LzaxqSFBPbSEFoxEourAdKVCNrty7hTch5fzzW0CdvYDLco4lKqWTCpJzSq+6/DpS4hOvebT4Luo1XgX6jNpF8Po8R723BpGRPharjP8ucKHokEUSpUa4fgrtrR+ZGbsMRev3DzmB0EwZIxZt/HVjXdNC1KowsjICMYYjDGkRViV1ug7NwtfS2NMvx+kdflaujaPHXN+GdazamHXsubk1kIlfH/2zdSzf23h0d1Ltu/s6jiuaht+AFR4fcZEARLxAAAAAElFTkSuQmCC"
+  },
+  {
+    "id": 7,
+    "color": "Violet",
+    "size": "L",
+    "price": "$7.92",
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAH+SURBVBgZBcE9i11VGAbQtc/sO0OCkqhghEREAwpWAWUg8aMVf4KFaJEqQtAipTZWViKiCGOh2Ap2gmJhlSIWFsFOxUK0EsUM3pl79n4f12qHb3z3Fh7D83gC95GOJsDe0ixLk5Qq/+xv/Lw9Xd+78/HLX3Y8fXTr2nWapy4eCFKxG7Fby97SnDlYtMbxthyfzHO//nl85fNvfvnk8MbX5xa8IHx1518Vkrj54Q+qQms2vVmWZjdiu5ZR2rT01166/NCZg/2PFjwSVMU6yjoC1oq+x6Y3VbHdlXWExPd379nf7Nmejv2Os6OC2O4KLK0RNn3RNCdr2Z5GJSpU4o+/TkhaJ30mEk5HwNuvX7Hpi76wzvjvtIwqVUSkyjqmpHS0mki8+9mPWmuWxqYvGkbFGCUAOH/+QevYI9GFSqmaHr5wkUYTAlGhqiRRiaqiNes6SOkwJwnQEqBRRRJEgkRLJGVdm6R0GLMQENE0EkmkSkQSVVMqopyuIaUTs0J455VLAAAAAODW0U/GiKT0pTWziEj44PZ1AAAAcPPqkTmH3QiJrlEVDXDt0qsAAAAAapa5BqUnyaw0Am7//gUAAAB49tEXzTmtM5KkV/y2G/X4M5fPao03n/sUAAAAwIX7y5yBv9vhjW/fT/IkuSp5gJKElKRISYoUiSRIyD1tufs/IXxui20QsKIAAAAASUVORK5CYII="
+  },
+  {
+    "id": 8,
+    "color": "Maroon",
+    "size": "2XL",
+    "price": "$3.99",
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAEoSURBVDjLrZMxSgRBEEXfiBiIkRjpRTyAuZGH8ALewmtsbOAVNjM1F0FEwURwZ9vq+t+gZ3aR3RFEC5qGLv6v11XdnW3+ErsAs9nMpRT6vme5XLJYLDZW3/erfCmF+XzeAXT/QgBwc7ewASUYsOHidL+7vn1eVzCkzNX5cbdhkIKjgx0EWPDyrpXu5HAP2Ujw+LrcTmBDuu0y1LV+JVaaSG83qAnS2iBzPDdZQTKZIsqEgQYC6TtBraKmUJoqUaL+TNAMjLI5RIhaW/VMTxNUtUbKbgTDFT7DK4pMU8bExhRSpLp1DzwaJFFFDhQRUwSGp7ckh4mM7ytKUqNVrzIREwSXZwfdtpdWwsRQXWpT2WowFRHZxNl6I+l3BvXT3D98bAjH+PNn+gIL+yQjrYYUIQAAAABJRU5ErkJggg=="
+  },
+  {
+    "id": 9,
+    "color": "Maroon",
+    "size": "M",
+    "price": "$9.37",
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAH0SURBVBgZpcFPaM9xHMfx5/vz/Ywfv6ZwGC1mtRsXtRvFQSmlKK3JkRJymAul5EJcrFZrcnO0QpELDgrlKJcd5M9PtpHawew39v2+3y/7rlZuLI+HSeJ/2OGhO2d27+2/PtNWUwIiUAQejkKEArkTEnLHI1i3qpybmJg8f+/GwGju39U/0tFopq4GK9Gca/sIMJrbpVJ75gcrNV8qsSjLxZVjfazUiWstalkKaguVI0AhPCAQEcIj8Ep4JVzBgoveTZ14OLWMRM2SYRJKhkxYGCkZZgkzxwpRRCJXohaVU8seTi0BMgODQhAGEaIQJCvIBm7CU1ALD2pZIZaYgUQCZAYGZiAXYSADklFEQS3CqeUIZ5mZsUQiATIjspEjmHp4k+mHY7Q/vaWjq5sdq/cAB8lVWbLEDAMkYWaIRRIJmH50i9lX4+w8cpzVvduZf/OYNc+f8mRfx9kkD2oFYICZYYAByYxkRuvuMH17DtF49wy7fZS17+/T27MBmYZyRLDMAGORGX9amGrR2NQLB86xLF/eTBG2LU9+aI2fGi4Hwp3wwN2JCLwsiQhCYqCxnvbrRzQfnObX/BfawOz3Ai+YMkn8zYvB7surOpsXt2ysck6fmf1W8fFr4eVPXTJJ/IuXg1svzM1MnSzcerzQpGBs/+Pq6m9gRhRi/EsJnAAAAABJRU5ErkJggg=="
+  },
+  {
+    "id": 10,
+    "color": "Pink",
+    "size": "XL",
+    "price": "$5.61",
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFWSURBVBgZBcE/SFQBAAfg792dppJeEhjZn80MChpqdQ2iscmlscGi1nBPaGkviKKhONSpvSGHcCrBiDDjEhOC0I68sjvf+/V9RQCsLHRu7k0yvtN8MTMPICJieaLVS5IkafVeTkZEFLGy0JndO6vWNGVafPJVh2p8q/lqZl60DpIkaWcpa1nLYtpJkqR1EPVLz+pX4rj47FDbD2NKJ1U+6jTeTRdL/YuNrkLdhhuAZVP6ukqbh7V0TzmtadSEDZXKhhMG7ekZl24jGDLgtwEd6+jbdWAAEY0gKsPO+KPy01+jGgqlUjTK4ZroK/UVKoeOgJ5CpRyq5e2qjhF1laAS8c+Ymk1ZrVXXt2+9+fJBYUwDpZ4RR7Wtf9u9m2tF8Hwi9zJ3/tg5pW2FHVv7eZJHd75TBPD0QuYze7n4Zdv+ch7cfg8UAcDjq7mfwTycew1AEQAAAMB/0x+5JQ3zQMYAAAAASUVORK5CYII="
+  }
+]

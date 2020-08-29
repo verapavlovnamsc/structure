@@ -1,0 +1,11 @@
+.example-card {
+  margin: 20px;
+  padding: 10px;
+  width: 200px;
+}
+
+mat-card-actions {
+
+  padding-bottom: 10px;
+
+}
