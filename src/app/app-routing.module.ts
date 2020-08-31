@@ -23,6 +23,10 @@ const routes: Routes = [
     component: MenucoatComponent
   },
   {
+    path: 'items',
+    loadChildren: () => import('./items/items.module').then(m => m.ItemsModule)
+  },
+  {
     path: 'coat/:id',
     component: CoatItemDescriptionComponent
   },

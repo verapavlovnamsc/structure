@@ -16,6 +16,8 @@ import { CoatItemComponent } from './coat-item/coat-item.component';
 import { MenucoatComponent } from './menucoat/menucoat.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CoatItemDescriptionComponent } from './coat-item-description/coat-item-description.component';
+import { OneItemComponent } from './items/components/one-item/one-item.component';
+;
 
 @NgModule({
   declarations: [
@@ -27,7 +29,8 @@ import { CoatItemDescriptionComponent } from './coat-item-description/coat-item-
     MenujacketComponent,
     MenucoatComponent,
     CoatItemComponent,
-    CoatItemDescriptionComponent
+    CoatItemDescriptionComponent,
+    OneItemComponent
   ],
   imports: [
     BrowserModule,
