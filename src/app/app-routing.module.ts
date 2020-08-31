@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { MenusuitComponent } from './menusuit/menusuit.component';
 import { MenujacketComponent } from './menujacket/menujacket.component';
 import { MenucoatComponent } from './menucoat/menucoat.component';
+import { CoatItemDescriptionComponent } from './coat-item-description/coat-item-description.component';
 
 
 
@@ -20,7 +21,11 @@ const routes: Routes = [
   {
     path: 'coat',
     component: MenucoatComponent
-  }
+  },
+  {
+    path: 'coat/:id',
+    component: CoatItemDescriptionComponent
+  },
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

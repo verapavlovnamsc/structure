@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Coat } from '../models/coat';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-coat-item',
@@ -8,9 +9,14 @@ import { Coat } from '../models/coat';
 })
 export class CoatItemComponent implements OnInit {
   @Input() itemCoat: Coat;
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
+
+  open() {
+    this.router.navigate([`/coat/${this.itemCoat.id}`]);
+  }
+
 
 }
